@@ -1,0 +1,110 @@
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  /* max-width: 400px; */
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+  background: rgba(24, 188, 156, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+  opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
+#portfolio * {
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 910px;
+    margin: 30px auto;
+  }
+}
+
+.modal-body {
+   padding-top : 30px;
+   padding-bottom: 30px;
+}
+[class^="fa-"]:before, [class*=" fa-"]:before {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+ul.work-detail > li {
+   padding: 2px 0 1px;
+}
+
+div.portfolio table td {
+   vertical-align: middle;
+   background-color : rgba(0,0,0,0.08);
+}
+
+div.portfolio .table > tbody > tr > td {
+   border : 1px solid #fff;
+}
+
+div.portfolio-modal .table > tbody > tr> td:nth-child(1) {
+   padding-right: 0;
+   width: 24px;
+}
+
+div.portfolio-modal .table > tbody > tr> td:nth-child(2) {
+   padding: 4px 0 5px 0 ;
+}
+
+
+div.portfolio-modal .table > tbody > tr> td {
+   border: none;
+   padding-left: 0;
+}
+
+div.portfolio-modal p.header {
+   line-height: 23px;
+   font-weight: bold;
+}
+
+div.portfolio-modal .carousel-caption > p{
+   color : rgba(0,0,0,1);
+   text-shadow: none;
+   background:#fff;
+   box-shadow:0 1px 2px #000;
+   font-size:12px;
+   padding: 8px;
+}
+
+@media screen and (min-width: 768px) {
+   .carousel-caption {
+      left: 10%;
+      right: 10%;
+   }
+}
