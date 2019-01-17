@@ -191,6 +191,9 @@ button {
 .sub-title a.blog-tag.bg-color-4::before {
    background: #0fd28a;
 }
+.sub-title a.blog-tag.bg-color-5::before {
+   background: #f97400;
+}
 
 .tags ul.blog-tags {
    margin-bottom:  -18px;
@@ -221,6 +224,9 @@ button {
 }
 .tags a.blog-tag.bg-color-4::after {
    border-left: 10px solid #0fd28a;
+}
+.tags a.blog-tag.bg-color-5::after {
+   border-left: 10px solid #f97400;
 }
 
 .sub-title {
@@ -1374,6 +1380,16 @@ blockquote {
        display: inline-block;
        text-align: left;
        width: 100%;
+       margin-bottom:0;
+     }
+
+     .sub-title a.contact {
+        display: none;
+     }
+
+     .content-page {
+        border-top : none;
+        padding-top: 0px;
      }
 }
 

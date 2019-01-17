@@ -23,7 +23,7 @@
                </tr>
                <tr>
                   <td><b>Skill Set</b></td>
-                  <td style="color:#206fbb;">PHP7,  MySQL, HTML5, CSS3, JavaScript/jQuery, UIKit, AJAX/JSON, REST APIs, Ubuntu, Apache 3, Git</td>
+                  <td style="color:#206fbb;">PHP7,  MySQL, HTML5, CSS3, JavaScript/jQuery, UIKit, AJAX/JSON, REST APIs, Linux, Apache 3, Git</td>
                </tr>
                <tr>
                   <td><b>Company</b></td>

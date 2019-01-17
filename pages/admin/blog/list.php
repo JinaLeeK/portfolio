@@ -17,7 +17,7 @@ $aPosts = $pdo ->query("SELECT * FROM posts p
       <tbody>
       <?php foreach($aPosts as $aPost) { ?>
          <tr>
-            <td><a href="<?=BASE_URI?>post?pid=<?=$aPost['pid']?>"><?=substr($aPost['title'],0,50)?>...</a></td>
+            <td><a href="<?=BASE_URI?>post/<?=$aPost['slug']?>"><?=substr($aPost['title'],0,50)?>...</a></td>
             <td class="text-center"><?=$aPost['name']?></td>
             <td class="text-center"><?=$aPost['createdon']?></td>
             <td class="text-center"><a href="<?=BASE_URI?>admin/blog/edit?admin=jina&id=<?=$aPost['pid']?>">edit</a></td>

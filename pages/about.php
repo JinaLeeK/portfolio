@@ -9,7 +9,7 @@
           <a href="<?=BASE_URI?>blog" class="blog-tag">Blog</a>
       </li>
   </ul>
-   <a href="<?=BASE_URI?>contact"><i class="icon-envelope"></i></a>
+   <a class="contact" href="<?=BASE_URI?>contact"><i class="icon-envelope"></i></a>
 </div>
 
 
@@ -30,23 +30,25 @@
 
       </div>
       <!-- My Intro End -->
+      <p class="text-primary">Creating Web Applications with PHP-Mysql, WordPress, AJAX, AngularJS, HTML5, CSS3, jQuery.
+</p>
 
+      <p>My name is Taraprasad Swain, I am a full time freelancer web designer and developer. My IT career started in 2005, which includes web designing and development. My favorite job was programming and making web applications and web sites for companies.
 
-      <p>I am in the website field since 2004 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at quam at orci commodo hendrerit vitae nec eros. Vestibulum neque est, imperdiet nec tortor nec, tempor semper metus. <b>I am a developer</b>, et accumsan nisi. Duis laoreet pretium ultricies. Curabitur rhoncus auctor nunc congue sodales. Sed posuere nisi ipsum, eget dignissim nunc dapibus eget. Aenean elementum sollicitudin sapien ut sapien fermentum aliquet mollis. Curabitur ac quam orci sodales quam ut tempor. suspendisse, gravida in augue in, interdum <b><a href="work.html" data-toggle="tooltip" data-placement="top" title="Check out my work.">Work</a></b> bibendum dui. Suspendisse sit amet justo sit amet diam fringilla commodo. Praesent ac magna at metus malesuada tincidunt non ac arcu. Nunc gravida eu felis vel elementum. Vestibulum sodales quam ut tempor tempor Donec sollicitudin imperdiet nec tortor nec, tempor semper metus..</p>
+My services are spanned to UI Design, Web Design, WordPress Development, e-commerce, eLearning, Core PHP development, Responsive Design, Minimalistic Design, jQuery Development, Angular JS Development.
 
+In 2012, I started freelance to combine my passion of programming with individuals and organizations to transform their business ideas into usable web applications and helping them to showcase their portfolio, services and brand. The connection between web, identity, brand, usability and profit has always been clear.
+My key skills are PHP, MySql, jQuery, AngularJS, Ajax, HTML5, CSS3, PHP frameworks like Zend, Yii, cakephp, PHP based CMS like WordPress, Joomla, Drupal.
 
+I make websites and web applications for Individuals, Business Organizations, Education Sector, Health Care Sector and Custom Development. I am very good at debugging and troubleshooting issues in any code, I recover hacked web sites.
 
-      <!-- Video Start -->
-      <div class="video-box margin-top-40 margin-bottom-80">
-         <div class="video-tutorial">
-            <a class="video-popup" href="https://www.youtube.com/watch?v=O2Bsw3lrhvs" title="My Thought">
-               <img src="images/pic/my-pic.png" alt="">
-            </a>
-         </div>
-         <p>Take a look about my thought on website design.</p>
-         The primary programming languages used is PHP utilizing both Object Oriented (OOP) and legacy script type (PHP3) programming
-      </div>
-      <!-- Video End -->
+I can improve your WordPress site security. Whether explicit features or an internal system, I have all the expertise to do it. I understand and truly appreciate the importance of the web to your business and brand.
+
+I translate your business requirements into custom-built modules to implement the best by making use of industry standard technologies, thereby ensuring that you get the most out of your website.
+
+There are a lot of freelancer web developers out there. But I’m the perfect solution for you when you need quality work in an optimized way.
+Do you want to represent your identity to the web, do you want to make your business global? Well you have landed on the right place.</p>
+
 
 
 

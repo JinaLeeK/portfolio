@@ -8,7 +8,7 @@
          <a href="<?=BASE_URI?>blog" class="blog-tag">Blog</a>
       </li>
    </ul>
-   <a href="<?=BASE_URI?>contact"><i class="icon-envelope"></i></a>
+   <a class="contact" href="<?=BASE_URI?>contact"><i class="icon-envelope"></i></a>
 </div>
 
 <div class="col-md-12 content-page">

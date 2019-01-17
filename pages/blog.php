@@ -20,11 +20,11 @@ $aTags  = $pdo ->query("SELECT * FROM tags ORDER BY `name` ");?>
          <a href="<?=BASE_URI?>work" class="blog-tag">My work</a>
       </li>
    </ul>
-   <a href="contact"><i class="icon-envelope"></i></a>
+   <a class="contact" href="contact"><i class="icon-envelope"></i></a>
 </div>
 
 <div class="col-md-12 content-page">
-   <div class="sub-title tags" >
+   <div class="sub-title tags" style="border:none;">
       <ul class="blog-tags">
          <?php if(isset($_GET['tid'])) {?>
             <li>
@@ -43,18 +43,19 @@ $aTags  = $pdo ->query("SELECT * FROM tags ORDER BY `name` ");?>
             <?php } ?>
       </ul>
    </div>
+   <div style="clear:both;"></div>
 
    <!-- Blog Post Start -->
    <?php foreach($aPosts as $aPost) { ?>
-   <div class="col-md-12 blog-post">
+   <div class="col-md-12 blog-post" style="font-size:16px; line-height:30px;">
       <div class="post-title">
-         <a href="<?=BASE_URI?>post?pid=<?=$aPost['pid']?>"><h1><?=$aPost['title']?></h1></a>
+         <a href="<?=BASE_URI?>post/<?=$aPost['slug']?>"><h1><?=$aPost['title']?></h1></a>
       </div>
       <div class="post-info">
          <span><?=date('F j, Y',strtotime($aPost['createdon']))?> by Jina Lee</span>
       </div>
       <p><?=truncateHTML($aPost['content'],250,'...')?></p>
-      <a href="post?pid=<?=$aPost['pid']?>" class="button button-style button-anim fa fa-long-arrow-right" style="margin-left:0;"><span>Read More</span></a>
+      <a href="post/<?=$aPost['slug']?>" class="button button-style button-anim fa fa-long-arrow-right" style="margin-left:0;"><span>Read More</span></a>
 
    </div>
    <!-- Blog Post End -->

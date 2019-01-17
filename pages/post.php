@@ -1,9 +1,13 @@
 <?php
-if(!isset($_GET['pid'])) {
-   header('Location:  '.BASE_URI."blog");
-}
-$query = "SELECT * FROM posts p LEFT JOIN tags t ON (t.id=p.tag_id) WHERE p.pid={$_GET['pid']}";
-$aPost = $pdo ->query($query)->fetch(PDO::FETCH_ASSOC);
+// if(!isset($_GET['pid'])) {
+//    header('Location:  '.BASE_URI."blog");
+// }
+$query = "SELECT *   FROM posts p
+LEFT JOIN            tags t ON (t.id=p.tag_id)
+WHERE                p.slug='".create_slug($aPage['title'])."'
+LIMIT                1";
+// echo $query;
+$aPost = $pdo->query($query)->fetch(PDO::FETCH_ASSOC);
 ?>
 <div class="sub-title">
    <a href="<?=BASE_URI?>blog" title="Go to Home Page"><h2>Back List</h2></a>
@@ -12,15 +16,15 @@ $aPost = $pdo ->query($query)->fetch(PDO::FETCH_ASSOC);
 
 
 <div class="col-md-12 content-page">
-   <div class="sub-title tags" >
+   <div class="sub-title tags" style="border:none;" >
       <ul class="blog-tags">
          <li>
             <a href="<?=BASE_URI?>blog?tid=<?=$aPost['tag_id']?>" class="blog-tag bg-color-<?=$aPost['color']?>"><?=$aPost['name']?></a>
-         <li>
+         </li>
       </ul>
    </div>
-
-   <div class="col-md-12 blog-post">
+   <div style="clear:both;"></div>
+   <div class="col-md-12 blog-post" style="line-height:30px; font-size:16px;">
 
 
       <!-- Post Headline Start -->

@@ -14,8 +14,8 @@ $cUrl = ( empty($cUrl) )?preg_replace(
                         ['',''],
                         trim($_SERVER['REQUEST_URI'])
                      ):$cUrl;
-
 $aPage = route($cUrl);
+
 ?>
 
 <!DOCTYPE html>
@@ -67,7 +67,9 @@ $aPage = route($cUrl);
    <script type="text/javascript" src="<?=BASE_URI?>js/plugin.js"></script>
    <!-- Main Javascript File  -->
    <script type="text/javascript" src="<?=BASE_URI?>js/scripts.js"></script>
-   <script type="text/javascript" src="<?=BASE_URI?>js/summernote.min.js"></script>
+   <!-- <script type="text/javascript" src="</?=BASE_URI?>js/summernote.min.js"></script> -->
+   <script src='https://cloud.tinymce.com/stable/tinymce.min.js'></script>
+
 
 
 </body>
